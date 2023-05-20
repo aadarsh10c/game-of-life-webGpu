@@ -35,7 +35,7 @@ const pass = encoder.beginRenderPass({
 })
 
 pass.end()
-
+//test
 const commandBuffer = encoder.finish()
 
 device.queue.submit([commandBuffer])
